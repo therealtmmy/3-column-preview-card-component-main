@@ -1,0 +1,41 @@
+@media (max-width: 765px) {
+
+    body {
+      margin: 0 auto;
+      place-content: start;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+       width: 100%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .Sedans {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      padding: 30px;
+      line-height: 30px;
+      border-radius: 0%;
+  }
+
+  .SUVS {
+    padding: 30px;
+}
+
+  .LUXURY {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 30px;
+}
+
+
+button {
+  margin-top: 20px;
+}
+
+}
